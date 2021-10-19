@@ -1,0 +1,28 @@
+#!/bin/sh
+
+while getopts c:f:n name
+do
+    case $name in
+	c) cuename="$OPTARG";;
+	f) filename="$OPTARG";;
+	n) noname=1;;
+	?) printf "Invalid option "
+	    exit 2;;
+    esac
+done
+
+if [ -z "$cuename" ]; then
+    printf "ERROR: no cue name specified"
+    exit 2
+fi
+
+if [ -z "$filename" ]; then
+    printf "ERROR: no file name specified"
+    exit 2
+fi
+
+if [ -z "$noname"]; then
+    shnsplit -f "$cuename" -o flac -t "%n %t" "$filename"
+else
+    shnsplit -f "$cuename" -o flac -t "%n" "$filename"
+fi

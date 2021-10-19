@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ -z "$2"] 
+then
+	danmaku2ass -s 1920x1080 -fn 'Sarasa Fixed SC' -fs 50 -a .5 -dm 10 -p 100 -r "$1" -o "$(echo $1 | sed 's/.cmt.xml/.ass/')"
+else
+	danmaku2ass -s 1920x1080 -fn 'Sarasa Fixed SC' -fs 50 -a .5 -dm 10 -p 100 -r "$1" -o "$2"
+fi

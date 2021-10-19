@@ -1,0 +1,3 @@
+#!/bin/sh
+
+notify-send "Feed updated" "$1"

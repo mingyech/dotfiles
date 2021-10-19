@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ $1 = '-f' ]; then
+    sudo umount -f /mnt/home/mnt
+    sudo umount -f /mnt/home/home
+else
+    sudo umount /mnt/home/mnt
+    sudo umount /mnt/home/home
+fi

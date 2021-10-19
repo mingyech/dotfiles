@@ -1,0 +1,10 @@
+#!/bin/sh
+
+status="$(fcitx5-remote)"
+if [ $status = 1 ]; then
+    echo " en"
+elif [ $status = 2 ]; then
+    echo " 中"
+else
+    echo ""
+fi

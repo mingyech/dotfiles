@@ -1,0 +1,4 @@
+#!/bin/sh
+
+. $HOME/.config/solarized/colors.ini
+bemenu-run -p "run" --nb "$base03" --nf "$base01" --hb "$base02" --hf "$base0" --tb "$base03" --tf "$base0" --fb "$base03" --ff "$base0"

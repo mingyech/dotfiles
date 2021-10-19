@@ -1,0 +1,3 @@
+#!/bin/sh
+mbsync gmail-personal
+mbsync gmail-umich

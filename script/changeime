@@ -1,0 +1,6 @@
+#!/bin/sh
+if ibus engine | grep "rim" >/dev/null; then
+    ibus engine xkb:us::eng
+else
+    ibus engine rime
+fi
