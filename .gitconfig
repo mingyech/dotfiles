@@ -1,0 +1,13 @@
+[user]
+	email = mingyechen82@gmail.com
+	name = Mingye Chen
+	signingkey = mingyechen82@gmail.com
+
+[commit]
+	gpgsign = true
+
+[tag]
+	gpgSign = true
+
+[init]
+	defaultBranch = main
