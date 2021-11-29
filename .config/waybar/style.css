@@ -26,6 +26,7 @@
 
 #waybar {
     background-color: @base03;
+    background: alpha(@borders, 0.75);
     color: @base0;
 }
 
