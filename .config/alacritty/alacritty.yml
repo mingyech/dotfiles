@@ -1,5 +1,5 @@
 draw_bold_text_with_bright_colors: true
-background_opacity: 0.75
+window_opacity: 0.75
 
 schemes:
 
@@ -74,19 +74,21 @@ colors: *dark
 
 font:
   normal:
-    family: Sarasa Term SC
+    family: Fira Code
     style: Regular
 
   bold:
-    family: Sarasa Term SC
+    family: Fira Code
     style: Bold
 
   italic:
-    family: Sarasa Term SC
+    family: Fira Code
     style: Italic
 
   bold_italic:
-    family: Sarasa Term SC
+    family: Fira Code
     style: Bold Italic
 
   size: 12
+
+builtin_box_drawing: false
