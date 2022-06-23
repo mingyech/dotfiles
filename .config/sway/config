@@ -139,7 +139,7 @@ bindsym $mod+x exec swaylock
 bindsym $mod+Shift+x exec swaylock -f && systemctl suspend
 
 #browser
-bindsym $mod+b exec chromium-snapshot-bin
+bindsym $mod+b exec chromium
 #bindsym $mod+b exec qutebrowser
 
 #screenshot
