@@ -78,7 +78,7 @@
 	"format-stopped": "",
 	"state-icons": {
 	    "playing": "",
-	    "paused": ""
+	    "paused": " "
 	},
 	"max-length": 100
     },
