@@ -1,0 +1,16 @@
+[commit]
+	gpgsign = true
+
+[tag]
+	gpgSign = true
+
+[gpg]
+	format = ssh
+
+[user]
+	email = mingyechen82@gmail.com
+	name = Mingye Chen
+	signingkey = /home/user/.ssh/id_ed25519_sk_rk.pub
+
+[init]
+	defaultBranch = main
